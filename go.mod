@@ -1,4 +1,4 @@
-module github.com/lenqwang/handlebars-helper-parser
+module github.com/lenqwang/extract-helpers-for-golang
 
 go 1.20
 
