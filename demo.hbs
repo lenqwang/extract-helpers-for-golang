@@ -1,0 +1,9 @@
+<div class="{{ append 'pre-' klass }}">
+  <ul>
+  {{#with this as |global|}}
+    {{#each users}}
+     <li>{{append this.name (get 'name' this.jobs)}}</li>
+   {{/each}}
+  {{/with}}
+  </ul>
+</div>
